@@ -29,4 +29,3 @@ que clonar el repositorio, para esto utilizo el comando git clone
 	indica a la computadora que quiero que se clone en la carpeta en la 
 	que estoy posicionado)
 
-prueba 1 de modificar el archivo
