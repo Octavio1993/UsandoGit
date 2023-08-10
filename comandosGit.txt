@@ -1,0 +1,31 @@
+para poder iniciar un repositorio Git uso el comando git init en la carpeta
+que yo quiero establecer como repositorio
+
+para vincular la carpeta repositorio de local con el repositorio remoto en
+GitHub uso el comando git remote add
+	git remote add name(origin) url(que lo obtengo en el repositorio
+		remoto en GitHub)
+
+para ver los estados de los repositorios uso el comando git status,
+que me muestra todas las operaciones realizadas en ese repositorio,
+rojo para lo que falta y verde lo que ya está realizado
+
+para incluir los cambios o modificaciones que se realizan en local, uso 
+el comando git add
+	git add <archivo> //para subir un archivo específico
+	git add . //para subir todo
+
+para tener un punto de control sobre lo que estamos haciendo uso el
+comando git commit, seguido de un breve mensaje de lo que se hizo, usando
+git commit -m "mensaje"
+
+para poder enviar los archivos del repositorio local al remoto (GitHub)
+uso el comando git push
+	git push <nombre-remoto>(origin) <nombre rama>(main)
+
+para poder traer del remoto al local para poder trabajar sobre este, tengo
+que clonar el repositorio, para esto utilizo el comando git clone
+	git clone seguido de la URL del repositorio remoto .(el punto le 
+	indica a la computadora que quiero que se clone en la carpeta en la 
+	que estoy posicionado)
+
